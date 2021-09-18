@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+  
+
+}
+body{
+    background-color: rgba(77, 179, 226, 0.788);
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 15px 40px;
+    padding:1%;
+    width: 40%;
+    height:80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    
+    }
+    #res{
+        margin-top: 1%;
+    }
+
+    footer{
+        font-style: italic;
+        text-align: center;
+    
+    }
