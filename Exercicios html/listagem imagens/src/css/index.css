@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.pinturas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.pitura{
+    margin-left: 10px;
+    position: relative;
+}
+.pinturas .pitura .informacoes{
+    position: absolute;
+    color: white;
+    left: 20px;
+    bottom: 40px;
+}

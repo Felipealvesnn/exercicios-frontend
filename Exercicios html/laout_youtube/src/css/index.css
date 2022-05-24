@@ -1,0 +1,73 @@
+html{
+    font-family: 'roboto', sans-serif;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+}
+
+.container{
+    background-color: rgb(235, 222, 222);
+    display: grid;
+    max-width: 900px;
+    grid-template-areas:"video_destaque propaganda" "video_destaque videos_sugeridos" ;
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    padding: 30px;
+
+}
+
+.video_destaque{
+    grid-area: video_destaque;
+    background-color: rgb(235, 222, 222);
+    padding-right: 2%;
+
+}
+.video_destaque img{
+    margin-bottom: 12px;
+    width: 100%;
+    
+}
+.video_destaque .viualizacoes{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.video_destaque .titulo{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.propaganda{
+    grid-area: propaganda;
+    background-color: bisque;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.videos_sugeridos{
+    grid-area: videos_sugeridos;
+    background-color: rgb(235, 222, 222);
+    
+}
+.videos_sugeridos .video{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.video p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
